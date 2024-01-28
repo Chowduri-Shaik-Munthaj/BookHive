@@ -1,0 +1,31 @@
+.wrapper {
+    margin: 2em auto 0;
+    padding: 1em;
+    max-width: 750px;
+}
+
+.btnContainer {
+    display: flex;
+    justify-content: space-between;
+    flex: auto;
+    gap: 10px;
+}
+
+.btnContainer>* {
+    margin: 10px;
+}
+
+.tabScrollView {
+    overflow: auto;
+}
+
+.scrollView {
+    width:'fit-content';
+    max-height: 320px !important;
+    overflow: auto;
+    /* border: 1px solid #ccc;  */
+}
+
+  
+  
+  
